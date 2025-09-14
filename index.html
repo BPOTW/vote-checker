@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const age = Number(prompt("Enter your age:"));
+      const citizen = confirm("Are you a citizen?");
+
+
+      if (age >= 18 && citizen) {
+        console.log("You are eligible to vote.");
+        document.writeln("You are eligible to vote.");
+      } else {
+        console.log("You are not eligible.");
+        document.writeln("You are eligible to vote.");
+      }
+    </script>
+  </body>
+</html>
